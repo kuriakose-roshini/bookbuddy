@@ -2,7 +2,11 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-
+        background: url(https://img.freepik.com/premium-photo/old-library-hall-with-shelves-books-stacks_124507-15364.jpg);
+        background-repeat: no-repeat;
+	background-blend-mode: normal;
+	background-color: #907163;
+	background-size: cover;
 }
 
 header {
@@ -16,29 +20,16 @@ header h1 {
 }
 
 nav {
-	background-color: #555;
-	color: white;
+	background-color: #907163;
+	width: 300px;
+	color:black;
 	padding: 1em;
 }
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-nav li {
-	display: inline;
-	margin-right: 1em;
-}
-
-nav a {
-	color: white;
-	text-decoration: none;
-}
-
 main {
 	padding: 2em;
-}
+	color:#000;
+	background-color:#907163;
+	width: 268px;
 
 main h2 {
 	margin-top: 0;
@@ -50,7 +41,26 @@ footer {
 	padding: 1em;
 	text-align: center;
 }
-
-input{
-	background-color: #f3e0f3;
-}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	background-color: #907163;
+  }
+  li a {
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+	background-color: #ffffff;
+	color: black;
+  } 
+  button{
+   color: black;
+   background-color: #e4e4dd;
+  }
