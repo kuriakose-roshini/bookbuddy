@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#book-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#book-form label {
+    margin-bottom: 0.5rem;
+}
+
+#book-form input {
+    margin-bottom: 1rem;
+}
+
+#books-container {
+    margin-top: 1rem;
+}
+
+.book-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.book-item h3 {
+    margin-top: 0;
+}
+
+.book-item button {
+    margin-top: 0.5rem;
+}
