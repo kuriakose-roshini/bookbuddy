@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <link rel="stylesheet" href="mngbook.css">
+</head>
+<body>
+    <h1>Book Management</h1>
+    <form id="book-form">
+        <input type="hidden" id="book-id">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        <br>
+        <label for="author">Author:</label>
+        <input type="text" id="author" required>
+        <br>
+        <button type="submit">Save</button>
+    </form>
+    <hr>
+    <div id="books-container"></div>
+    <script src="mngbook.js"></script>
+</body>
+</html>
