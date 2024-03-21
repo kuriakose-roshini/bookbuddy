@@ -1,0 +1,18 @@
+.silent{
+    border: 0ch;
+    float:right;
+    width:25%;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.silent1{
+    border: 0ch;
+    position: relative;
+    float:right;
+    width: 25%;
+}
+.k{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
