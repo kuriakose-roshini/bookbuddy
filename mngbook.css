@@ -6,7 +6,8 @@ body {
 
 #book-form {
     display: flex;
-    flex-direction: column;
+    width: 300px;
+    /*flex-direction: column;*/
 }
 
 #book-form label {
