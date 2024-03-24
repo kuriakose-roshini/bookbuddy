@@ -4,16 +4,14 @@ header {
 	padding: 1em;
 }
 nav {
-	width: 300px;
-	color:rgb(214, 166, 166);
+	color:black;
 	padding: 1em;
-}
-ul {
+} ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: rgb(134, 68, 68);
+	/*background-color: black;*/
   }
   
   li {
@@ -22,19 +20,58 @@ ul {
   
   li a {
 	display: block;
-	color:white;
+	color:rgba(252, 252, 252, 0.918);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
   }
-  
+  header {
+	background-color: #333;
+	color: white;
+	padding: 1em;
+}
+
+header h1 {
+	margin: 0;
+}
   li a:hover {
-	background-color: white;
-	color: black;
+	background-color: rgb(14, 1, 1);
+	color: rgb(236, 235, 235);
   }
-  .bookbuddy
-  {
-    font-weight: bold;
-    
+  .button {
+	border-radius: 4px;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 1000px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
   }
- 
+  
+  .button span {
+	cursor: pointer;
+	
+	position: center;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: relative;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }

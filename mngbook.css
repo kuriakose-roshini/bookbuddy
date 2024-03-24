@@ -1,41 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: rgba(138, 47, 11, 0.459);
+background: url(bookback.webp);
+background-size: cover;
 }
 h1{
-    background-color: #333;
-	color: white;
+	color: rgb(114, 62, 62);
 	padding: 1em;
 }
-#book-form {
-    width: 300px;
-    /*flex-direction: column;*/
+table,th{
+    border: 1px solid white;
+    color: brown;
+    width: 1000px;
+    text-align: center;
+    font-size: larger;
+    position: center;
 }
-
-#book-form label {
-    margin-bottom: 0.5rem;
+td{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(68, 95, 56);
+    width: 1000px;
+    text-align: center;
+    font-size: larger;
 }
-
-#book-form input {
-    margin-bottom: 1rem;
+button{
+    display: inline-block;
+    border: 10px black;
+    background-color:#db820cc5;
 }
-
-#books-container {
-    margin-top: 1rem;
-}
-
-.book-item {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-.book-item h3 {
-    margin-top: 0;
-}
-
-.book-item button {
-    margin-top: 0.5rem;
+button:hover{
+    background-color:yellowgreen ;
 }
