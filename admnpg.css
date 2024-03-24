@@ -39,26 +39,23 @@ header h1 {
 	color: rgb(236, 235, 235);
   }
   .button {
-	border-radius: 4px;
+	border-radius: 10px;
 	border: none;
-	color: #FFFFFF;
+	color: #ffe6e6;
 	text-align: center;
 	font-size: 28px;
 	padding: 20px;
-	width: 1000px;
+	width: 1350px;
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
-  }
-  
-  .button span {
 	cursor: pointer;
-	
 	position: center;
 	transition: 0.5s;
+	background-color: rgba(165, 42, 42, 0);
   }
   
-  .button span:after {
+  .button:after {
 	content: '\00bb';
 	position: relative;
 	opacity: 0;
@@ -67,11 +64,11 @@ header h1 {
 	transition: 0.5s;
   }
   
-  .button:hover span {
+  .button:hover  {
 	padding-right: 25px;
   }
   
-  .button:hover span:after {
+  .button:hover:after {
 	opacity: 1;
 	right: 0;
   }
