@@ -37,6 +37,10 @@ footer {
 	color: rgb(0, 0, 0);
 	padding: 1em;
 	text-align: center;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
   ul {
 	list-style-type: none;
