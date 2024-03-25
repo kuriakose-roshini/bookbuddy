@@ -1,0 +1,31 @@
+body {
+background: url(bookback.webp);
+background-size: cover;
+}
+h1{
+	color: rgb(114, 62, 62);
+	padding: 1em;
+}
+table,th{
+    border: 1px solid white;
+    color: brown;
+    width: 1000px;
+    text-align: center;
+    font-size: larger;
+    position: center;
+}
+td{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(68, 95, 56);
+    width: 1000px;
+    text-align: center;
+    font-size: larger;
+}
+button{
+    display: inline-block;
+    border: 10px black;
+    background-color:#db820cc5;
+}
+button:hover{
+    background-color:yellowgreen ;
+}
