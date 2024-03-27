@@ -69,6 +69,6 @@ button:hover{
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #07e70e7c;}
   img{
-    height: 30px;
+    height: 35px;
     width: 50px;
   }
