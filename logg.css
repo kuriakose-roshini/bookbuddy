@@ -73,10 +73,10 @@
 body{
     background: url(backg.jpeg);
   }
-button{
-  width: 100px;
-  font-weight: bolder;
+.button{
+  width: 120px;
+  font-weight: bolder;background-color: white;
 }
-button:hover{
+.button:hover{
   background-color: darkgray;
 }
