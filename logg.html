@@ -13,11 +13,11 @@
           <p>
             Student Login
           </p>
-          <form>
-            <input placeholder='Username' type='text'>
-            <input placeholder='Password' type='text' required>
+          <form class="studentForm"> 
+            <input id="studentUsername" placeholder='Username' type='text'>
+            <input id="studentPassword" placeholder='Password' type='text' required>
             <br>
-            <a href="list.html"class="button">Submit</a>
+            <button id="studentSubmit" class="button">Submit</button>
           </form>
         </section>
         <section>
@@ -25,10 +25,10 @@
           <p>
             Faculty Login
           </p>
-          <form>
-            <input placeholder='Username' type='text'>
-            <input placeholder='Password' type='text' required><br>
-           <a href="list.html"class="button">Submit</a>
+          <form class="facultyForm">
+            <input id='facultyUsername'placeholder='Username' type='text'>
+            <input id='facultyPassword' placeholder='Password' type='text'required><br>
+            <button id="facultySubmit" class="button">Submit</button>
           </form>
         </section>
         <section>
@@ -36,9 +36,10 @@
           <p>
             Admin Login
           </p>
-          <form>
-            <input placeholder='Username' type='text'>
-            <input placeholder='Password' type='text' required><br>
+          <form class="adminForm">
+            <input id='adminUsername' placeholder='Username' type='text'>
+            <input id='adminPassword' placeholder='Password' type='text' required><br>
+            <button id="adminSubmit" class="button">Submit</button>
             <a href="mngbook.html"class="button">Submit</a>
           </form>
         </section>
