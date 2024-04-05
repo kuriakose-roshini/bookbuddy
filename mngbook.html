@@ -7,7 +7,7 @@
     <meta name="description" content="Free Library System">
     <meta name="keywords" content="Library System, Book System">
     <meta name="author" content="Codeblogger">
-    <title>Library System</title>
+    <title>Book Buddy</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="mngbook.css">
     <link rel="stylesheet" href="/CSS/book_list.css">
     <link rel="stylesheet" href="/CSS/insertion_section.css">
-    <script src="/JS/main.js"></script>
+    <script src="mngbook.js"></script>
 </head>
 <body>
 
@@ -58,14 +58,14 @@
                                 <input type="number" class="form-control" id="numberPage">
                             </div>
                             <div class="col-6">
-                                <label for="serialNumber" class="text-light">Serial Number</label>
+                                <label for="serialNumber" class="text-light">Accession Number</label>
                                 <input type="number" class="form-control" id="serialNumber">
                             </div>
                         </div>
                         <div class="add-button mt-4">
                             <button type="button" class="btn btn-danger btn-block" id="add" >ADD</button>
                         </div>
-                      </from>
+                      </form>
                 </div>
 
                 <!-- Book List -->
@@ -76,8 +76,8 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Author</th>
                                 <th scope="col">Publisher</th>
-                                <th scope="col">Page</th>
-                                <th scope="col">Serial</th>
+                                <th scope="col">No Of Copies</th>
+                                <th scope="col">Accession number</th>
                                 <th></th>
                             </tr>
                         </thead>

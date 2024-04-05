@@ -17,7 +17,7 @@ table,th{
 td{
     border: 1px solid rgb(0, 0, 0);
     color: rgb(68, 95, 56);
-    width: 1000px;
+    width: 1500px;
     text-align: center;
     font-size: larger;
 }
@@ -71,4 +71,8 @@ button:hover{
   img{
     height: 35px;
     width: 50px;
+  }
+  .search{
+    float: right;
+    width: 25%;
   }
