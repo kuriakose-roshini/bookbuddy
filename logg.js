@@ -1,4 +1,4 @@
-/*const studentForm = document.getElementById("studentForm");
+const studentForm = document.getElementById("studentForm");
         const facultyForm = document.getElementById("facultyForm");
         const adminForm = document.getElementById("adminForm");
 
@@ -42,8 +42,8 @@
           } else {
             alert("Invalid username or password.");
           }
-        });*/
-
+        });
+/*
         var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate(){
@@ -66,3 +66,4 @@ return false;
 }
 }
 }
+*/
