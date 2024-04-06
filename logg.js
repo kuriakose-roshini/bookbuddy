@@ -5,7 +5,7 @@ const studentForm = document.getElementById("studentForm");
         const studentUsername = document.getElementById("studentUsername");
         const studentPassword = document.getElementById("studentPassword");
 
-        studentForm.addEventListener("Submit", (e) => {
+        studentForm.addEventListener("submit", (e) => {
           e.preventDefault();
           if (studentUsername.value === "student" && studentPassword.value === "password") {
             alert("Login successful!");
