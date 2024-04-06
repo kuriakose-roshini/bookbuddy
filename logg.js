@@ -19,7 +19,7 @@
         const facultyUsername = document.getElementById("facultyUsername");
         const facultyPassword = document.getElementById("facultyPassword");
 
-        studentForm.addEventListener("submit", (e) => {
+        facultyForm.addEventListener("submit", (e) => {
           e.preventDefault();
           if (facultyUsername.value === "faculty" && facultyPassword.value === "password") {
             alert("Login successful!");
@@ -33,9 +33,9 @@
         const adminUsername = document.getElementById("adminUsername");
         const adminPassword = document.getElementById("adminPassword");
 
-        studentForm.addEventListener("submit", (e) => {
+        adminForm.addEventListener("submit", (e) => {
           e.preventDefault();
-          if (adminUsername.value === "admin" && studentPassword.value === "password") {
+          if (adminUsername.value === "admin" && adminPassword.value === "password") {
             alert("Login successful!");
             // Redirect to the desired page
             window.location.href = "mngbook.html";
