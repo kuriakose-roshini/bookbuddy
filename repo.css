@@ -3,7 +3,7 @@
 body {
   font-family: "Archivo Narrow";
 /*   background-color: #333; */
-  color: #555;
+  color: #002c49;
 }
 
 #chartdiv {
@@ -59,8 +59,15 @@ ul {
   
   li a {
 	display: block;
-	color:rgb(99, 209, 10);
+	color:rgb(9, 131, 139);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+  }
+  li a:hover{
+    color: red;
+  }
+  body{
+    background: url(bookback.webp);
+    background-size: cover;
   }
