@@ -28,14 +28,14 @@
     <script src="mngmem.js"></script>
 </head>
 <body>
-
+  
     <section id="one-page">
         <div class="container">
             <!-- Title -->
+            <button onclick="mngbook">Manage Book</button>
             <div class="row">
                 <h1 class="text-light">Library System</h1>
             </div>
-
             <div class="row mt-4">
                 <!-- insertion section -->
                 <div class="col-lg-5" id="insertion_section">
@@ -51,7 +51,7 @@
                         <div class="row" id="idno-section">
                             <label for="idno" class="text-light">Id</label>
                             <input type="text" class="form-control" id="idno">
-                        </div>
+                        </div><!--
                         <div class="row" id="two-section">
                             <div class="col-6">
                                 <label for="numberPage" class="text-light">Number of copies</label>
@@ -61,7 +61,7 @@
                                 <label for="serialNumber" class="text-light">Accession Number</label>
                                 <input type="number" class="form-control" id="serialNumber">
                             </div>
-                        </div>
+                        </div>-->
                         <div class="add-button mt-4">
                             <button type="button" class="btn btn-danger btn-block" id="add" >ADD</button>
                         </div>
@@ -76,8 +76,8 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Member Type</th>
                                 <th scope="col">Membership Id</th>
-                                <th scope="col">No Of Copies</th>
-                                <th scope="col">Accession number</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
                                 <th></th>
                             </tr>
                         </thead>
