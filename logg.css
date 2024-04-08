@@ -80,3 +80,11 @@ body{
 .button:hover{
   background-color: darkgray;
 }
+.Guide{
+  float: right;
+  background-color: none;
+  color: aliceblue;
+  width: 40%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
