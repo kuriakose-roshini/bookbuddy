@@ -7,13 +7,13 @@
 	background-blend-mode: normal;
 	background-color: #907163;
 	background-size: cover;
-	background-image:url(back1.png);
+	background-image:url(back5.jpg);
 	height: 675px;
 	width: 100%;
 }
 
 header {
-	background-color: #fcfaa3;
+	background-color: #6dabaf;
 	color: rgb(26, 25, 25);
 	padding: 1em;
 }
@@ -53,16 +53,17 @@ footer {
   }
   
   li a {
-	display: block;
-	color:white;
+    background-color: rgba(255, 255, 255, 0.055);
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+    display: block;
   }
   
   li a:hover {
-	background-color: white;
-	color: black;
+	background-color:#6dabaf;
+	color:white;
   }
 button{
     background-color: white;
@@ -93,7 +94,7 @@ input{
     font-family:'Roboto', sans-serif;
 }
 body{
-    background-color: #fcfaa3;
+    background-color: #6dabaf;
 }
 .heading{
     width:90%;
