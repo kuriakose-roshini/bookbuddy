@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .font, .container section input[type=text], .container section p, .container h1 {
-  color: #d8ae54;
+  color: #2b679e;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -71,7 +71,7 @@
   height: 25%;
 }
 body{
-    background: url(backg.jpeg);
+    background: url(back6.jpg);
   }
 .button{
   width: 120px;
@@ -83,7 +83,7 @@ body{
 .Guide{
   float: right;
   background-color: none;
-  color: aliceblue;
+  color: #2b679e;
   width: 40%;
   font-family: 'Times New Roman', Times, serif;
   font-size: larger;
