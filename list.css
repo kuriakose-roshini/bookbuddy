@@ -1,5 +1,5 @@
 body {
-background: url(bookback.webp);
+background: url(S);
 background-size: cover;
 }
 h1{
@@ -24,10 +24,10 @@ td{
 button{
     display: inline-block;
     border: 10px black;
-    background-color:#2b679e;
+    background-color:#2b669e8e;
 }
 button:hover{
-    background-color:yellowgreen ;
+    background-color:rgba(130, 228, 235, 0.726) ;
 }
 .dropbtn {
     color: white;
