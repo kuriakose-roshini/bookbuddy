@@ -80,9 +80,9 @@ input{
   font-size: 16px;
   padding: 15px 45px 15px 15px;
   background-color: #eaeaeb18;
-  color: #fff1f1;
+  color: #6dabaf;
   border-radius: 6px;
-  border:none;
+  border:#6dabaf;
   transition: all .4s;
 }
 
