@@ -7,7 +7,7 @@
 	background-blend-mode: normal;
 	background-color: #907163;
 	background-size: cover;
-	background-image:url(back5.jpg);
+	background-image:url(back5.jpeg);
 	height: 675px;
 	width: 100%;
 }
@@ -80,9 +80,9 @@ input{
   font-size: 16px;
   padding: 15px 45px 15px 15px;
   background-color: #eaeaeb18;
-  color: #6dabaf;
+  color: #fff1f1;
   border-radius: 6px;
-  border:#6dabaf;
+  border:none;
   transition: all .4s;
 }
 
