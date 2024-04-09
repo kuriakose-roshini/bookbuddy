@@ -32,7 +32,7 @@
     <section id="one-page">
         <div class="container">
             <!-- Title -->
-            <button onclick="mngbook">Manage Book</button>
+            
             <div class="row">
                 <h1 class="text-light">Library System</h1>
             </div>
@@ -51,19 +51,20 @@
                         <div class="row" id="idno-section">
                             <label for="idno" class="text-light">Id</label>
                             <input type="text" class="form-control" id="idno">
-                        </div><!--
+                        </div>
                         <div class="row" id="two-section">
                             <div class="col-6">
-                                <label for="numberPage" class="text-light">Number of copies</label>
-                                <input type="number" class="form-control" id="numberPage">
+                                <label for="deptname" class="text-light">Department</label>
+                                <input type="text" class="form-control" id="deptname">
                             </div>
                             <div class="col-6">
-                                <label for="serialNumber" class="text-light">Accession Number</label>
-                                <input type="number" class="form-control" id="serialNumber">
+                                <label for="Due" class="text-light">Due</label>
+                                <input type="text" class="form-control" id="due">
                             </div>
-                        </div>-->
+                        </div>
                         <div class="add-button mt-4">
                             <button type="button" class="btn btn-danger btn-block" id="add" >ADD</button>
+                           <button class="btn btn-danger btn-block" onclick="document.location='mngbook.html'">Manage Book</button>
                         </div>
                       </form>
                 </div>
@@ -76,8 +77,8 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Member Type</th>
                                 <th scope="col">Membership Id</th>
-                                <th scope="col"></th>
-                                <th scope="col"></th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Due</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -86,8 +87,8 @@
                                 <th scope="row">Athira </th>
                                 <td>Student</td>
                                 <td>S1001</td>
-                                <td>478</td>
-                                <td>1</td>
+                                <td>CSE</td>
+                                <td>No</td>
                                 <td>
                                   <button type="button" class="close" aria-label="Close">
                                     <span aria-hidden="true">X</span>
@@ -98,8 +99,8 @@
                                 <th scope="row">Luna</th>
                                 <td>Student</td>
                                 <td>S1002</td>
-                                <td>398</td>
-                                <td>2</td>
+                                <td>CSE</td>
+                                <td>Yes</td>
                                 <td>
                                   <button type="button" class="close" aria-label="Close">
                                     <span aria-hidden="true">X</span>
@@ -110,8 +111,8 @@
                                 <th scope="row">Nimisha</th>
                                 <td>Faculty</td>
                                 <td>F11005</td>
-                                <td>685</td>
-                                <td>3</td>
+                                <td>CSE</td>
+                                <td>No</td>
                                 <td>
                                   <button type="button" class="close" aria-label="Close">
                                     <span aria-hidden="true">X</span>

@@ -15,37 +15,37 @@ $(document).ready(function(){
    
        // add book info
        $("#add").click(function(){
-           let book_name = $("#bookName").val(),
-               book_author = $("#authorName").val(),
-               book_publisher = $("#publisherName").val(),
-               book_number = $("#numberPage").val(),
-               book_serial = $("#serialNumber").val(),
+           let mem_name = $("#memName").val(),
+               mem_type = $("#typeName").val(),
+               mem_id = $("#idno").val(),
+               mem_dept = $("#deptname").val(),
+               mem_due = $("#due").val(),
                new_tr = document.createElement("tr"),
-               new_th_book_name = document.createElement("th"),
-               new_th_book_author = document.createElement("td"),
-               new_th_book_publisher = document.createElement("td"),
-               new_th_book_page = document.createElement("td"),
-               new_th_book_serial = document.createElement("td"),
-               table_book_name = document.createTextNode(book_name),
-               table_book_author = document.createTextNode(book_author),
-               table_book_publisher = document.createTextNode(book_publisher),
-               table_book_number = document.createTextNode(book_number),
-               table_book_serial = document.createTextNode(book_serial);
+               new_th_mem_name = document.createElement("th"),
+               new_th_mem_type = document.createElement("td"),
+               new_th_mem_id = document.createElement("td"),
+               new_th_mem_dept = document.createElement("td"),
+               new_th_mem_due = document.createElement("td"),
+               table_mem_name = document.createTextNode(mem_name),
+               table_mem_type = document.createTextNode(mem_type),
+               table_mem_id = document.createTextNode(mem_id),
+               table_mem_dept = document.createTextNode(mem_dept),
+               table_mem_due = document.createTextNode(mem_due);
    
            // add txt
-           new_th_book_name.appendChild(table_book_name);
-           new_th_book_author.appendChild(table_book_author);
-           new_th_book_publisher.appendChild(table_book_publisher);
-           new_th_book_page.appendChild(table_book_number);
-           new_th_book_serial.appendChild(table_book_serial);
+           new_th_mem_name.appendChild(table_mem_name);
+           new_th_mem_type.appendChild(table_mem_type);
+           new_th_mem_id.appendChild(table_mem_id);
+           new_th_mem_dept.appendChild(table_mem_dept);
+           new_th_mem_due.appendChild(table_mem_due);
            
    
            // add new_tr --> td
-           let name_tab = new_tr.appendChild(new_th_book_name);
-           let author_tab = new_tr.appendChild(new_th_book_author);
-           let publisher_tab = new_tr.appendChild(new_th_book_publisher);
-           let page_tab = new_tr.appendChild(new_th_book_page);
-           let serial_tab = new_tr.appendChild(new_th_book_serial);
+           let name_tab = new_tr.appendChild(new_th_mem_name);
+           let type_tab = new_tr.appendChild(new_th_mem_type);
+           let id_tab = new_tr.appendChild(new_th_mem_id);
+           let dept_tab = new_tr.appendChild(new_th_mem_dept);
+           let due_tab = new_tr.appendChild(new_th_mem_due);
            new_th_book_name.setAttribute("scope","row")
    
            // add new_tr --> table
