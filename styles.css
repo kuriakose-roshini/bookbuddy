@@ -71,18 +71,18 @@ button{
     width: 100px;
 }		
 button:hover{
-	background-color: #000;
-	color:white;
+	background-color: #a2cffa;
+	color:rgb(0, 0, 0);
 }
 input{
     width: 60%;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  padding: 15px 45px 15px 15px;
-  background-color: #eaeaeb18;
+  padding: 15px 45px 15px 30px;
+  background-color:none;
   color: #fff1f1;
   border-radius: 6px;
-  border:none;
+  border:gray;
   transition: all .4s;
 }
 
