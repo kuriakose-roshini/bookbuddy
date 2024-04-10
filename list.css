@@ -1,5 +1,5 @@
 body {
-background: url(S);
+background: url(img2.jpg);
 background-size: cover;
 }
 h1{
@@ -24,7 +24,7 @@ td{
 button{
     display: inline-block;
     border: 10px black;
-    background-color:#2b669e8e;
+    background-color:#1bbbd1;
 }
 button:hover{
     background-color:rgba(130, 228, 235, 0.726) ;
@@ -67,11 +67,7 @@ button:hover{
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #07e70e7c;}
-  img{
-    height: 35px;
-    width: 50px;
-  }
+  .dropdown:hover .dropbtn {background-color: #1bbbd1;}
   .search{
     float: right;
     width: 25%;

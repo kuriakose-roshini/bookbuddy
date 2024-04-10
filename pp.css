@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(bookback.webp);
+    background: url(back2.jpg);
     background-size: cover;
     font-family: Arial;
     overflow: hidden;
@@ -59,7 +59,7 @@ body {
 
 /* Sidenav */
 .sidenav {
-    background-color: #83372dd2;
+    background-color: #1bbcd1a2;
     color: #333;
     border-bottom-right-radius: 25px;
     height: 86%;
@@ -140,7 +140,7 @@ body {
 }
 
 .main .card {
-    
+    background-color: #b4d7dbde;
     border-radius: 18px;
     box-shadow: 1px 1px 8px 0 grey;
     height: auto;
