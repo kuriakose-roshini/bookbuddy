@@ -71,7 +71,9 @@
   height: 25%;
 }
 body{
-    background: url(backg.jpeg);
+    background: url(back6.png);
+    background-size: cover;
+    background-position-x:right;
   }
 .button{
   width: 120px;

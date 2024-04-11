@@ -59,15 +59,16 @@ ul {
   
   li a {
 	display: block;
-	color:rgb(9, 131, 139);
+	color:rgb(14, 28, 68);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+  font-size: larger;
   }
   li a:hover{
     color: red;
   }
   body{
-    background: url(bookback.webp);
+    background: url(img2.jpg);
     background-size: cover;
   }
