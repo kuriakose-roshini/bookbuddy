@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
-
+    <script src="profiles.js"></script>
     <!-- Custom Css -->
-    <link rel="stylesheet" href="pp.css">
+    <link rel="stylesheet" href="pps.css">
 
     <!-- FontAwesome 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -57,11 +57,11 @@
 
         <div class="sidenav-url">
             <div class="url">
-                <a href="#profile" class="active">Profile</a>
+                <a href="#profile" >Profile</a>
                 <hr align="center">
             </div>
             <div class="url">
-                <a href="profilesett.html">Settings</a>
+                <a href="#settings" class="active">Settings</a>
                 <hr align="center">
             </div>
         </div>
@@ -70,35 +70,22 @@
 
     <!-- Main -->
     <div class="main">
-        <h2>DETAILS:</h2>
+      <h2>UPDATE:</h2>
         <div class="card">
-            <div class="card-body">
-                <i class="fa fa-pen fa-xs edit"></i>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Name</td>
-                            <td>:</td>
-                            <td>xxxxxxxe</td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>:</td>
-                            <td>blahblah@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td>Membership ID</td>
-                            <td>:</td>
-                            <td>ABCD1234</td>
-                        </tr>
-                        <tr>
-                            <td>DEPARTMENT</td>
-                            <td>:</td>
-                            <td>CSE</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+             <div class="card-body">
+                 <form id="profile-form">
+                     <label for="name">Name:</label><br>
+                     <input type="text" id="name" name="name" value="John Doe"><br>
+                     <label for="email">Email:</label><br>
+                     <input type="email" id="email" name="email" value="john.doe@example.com"><br>
+                     <label for="Membership ID">Membership ID:</label><br>
+                     <input type="text" id="memid" name="memid" value="YGFIVU32"><br>
+                     <label for="Department">Department:</label><br>
+                     <input type="text" id="dept" name="dept" value="CSE">
+                     <button type="submit">Save Changes</button>
+                 </form>
+             </div> 
+         </div>
+   </div>   
 </body>
 </html>
