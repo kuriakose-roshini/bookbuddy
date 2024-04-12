@@ -46,7 +46,7 @@ $(document).ready(function(){
            let id_tab = new_tr.appendChild(new_th_mem_id);
            let dept_tab = new_tr.appendChild(new_th_mem_dept);
            let due_tab = new_tr.appendChild(new_th_mem_due);
-           new_th_book_name.setAttribute("scope","row")
+           new_th_mem_name.setAttribute("scope","row")
    
            // add new_tr --> table
            let new_table = document.getElementById("tabs");
