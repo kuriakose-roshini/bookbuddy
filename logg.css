@@ -85,7 +85,7 @@ body{
 .Guide{
   float: right;
   background-color: none;
-  color: aliceblue;
+  color: rgb(34, 88, 134);
   width: 40%;
   font-family: 'Times New Roman', Times, serif;
   font-size: larger;

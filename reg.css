@@ -29,5 +29,12 @@ label {
   form {
     width: 215px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 0%;
+  }
+  .Guide{
+    background-color: none;
+    color: rgb(192, 61, 148);
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
   }
