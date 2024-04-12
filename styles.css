@@ -248,12 +248,12 @@ color:rgb(0, 0, 0);
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
 .container {
   display: flex;
   align-items: center;
   margin: 20px;
-}
+}*/
 
 #list {
   list-style: none;
